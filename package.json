@@ -1,0 +1,20 @@
+{
+  "name": "nodejswebsite2",
+  "version": "1.0.0",
+  "description": "this is website for practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e hbs,js"
+  },
+  "author": "sandhya kumari vishwa",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "express": "^4.17.1",
+    "hbs": "^4.2.0",
+    "jquery": "^3.6.0",
+    "mongoose": "^6.0.13",
+    "validator": "^13.7.0"
+  }
+}

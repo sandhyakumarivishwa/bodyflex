@@ -1,0 +1,291 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    transition: 0.5s;
+}
+
+/* ///////////////////////navbar css ////////////////////////// */
+.navbar{
+overflow: hidden;
+position:fixed;
+top: 0;
+width: 100%;
+z-index: 1;
+
+}
+.navbar-brand{
+    font-size: 4rem;
+  
+    padding: 5px 50px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+}
+.nav-link{
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-transform: capitalize;
+    
+
+}
+.navbar-nav{
+    padding: 3px 50px;
+}
+.nav-item{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.nav-link:hover{
+    color: black;
+}
+
+
+/*///////////////////////////// carousel css ////////////////////////////// */
+
+img{
+   
+    height: 100vh;
+}
+
+/*//////////////////////////// gallery css/////////////////////////////// */
+
+.gallery{
+    /* border: 5px solid tomato; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.sub-gallery{
+    /* border: 5px solid blue; */
+    text-align: center;
+    padding-top: 5rem;
+    margin-bottom: 15rem;
+}
+.sub-gallery h2{
+text-transform: uppercase;
+font-size: 4rem;
+color: rgb(53, 52, 52);
+font-weight: 600;
+letter-spacing: 2px;
+}
+.sub-gallery
+{
+    text-transform: capitalize;
+    font-size: 2rem;
+    color: ;
+    letter-spacing: 1.5px;
+}
+.gall-collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid green; */
+    margin-bottom: 15rem;
+}
+
+
+.card{
+    
+    background-color: #fff;
+    width: 30rem;
+    height: 16rem;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.5);
+    transition: 0.3s;
+    padding: 2rem 4rem;
+    position: relative;
+    cursor: pointer;
+    margin-left: 3rem;
+}
+.card:hover{
+    height: 25rem;
+}
+.imgbox{
+    position: relative;
+    width: 100%;
+height: 100%;
+/* border: 2px solid red; */
+transform: translateY(-100px);
+
+
+}
+.img1{
+    width: 100%;
+    height: 20rem;
+border-radius: 1rem;
+    
+}
+.content{
+    padding: 1rem 2rem;
+    text-align: center;
+    transform: translateY(-90px);
+    opacity: 0;
+    transition: 0.3s;
+
+}
+.content h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+
+
+}
+.content p{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: gray;
+    letter-spacing: 1.5px;
+}
+.card:hover > .content{
+    opacity: 1;
+}
+
+/*////////////////////////////// about us css //////////////////////////// */
+.about {
+    /* border: 4px solid aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:whitesmoke;
+}
+.sub-about{
+    text-align: center;
+    /* border: 4px solid red; */
+    padding-bottom: 4rem;
+}
+.about h2
+{
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 4rem 0 0 0 ;
+}
+.about p{
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    letter-spacing: 1.2px;
+}
+.about-gall{
+/* border: 5px solid green; */
+display: flex;
+justify-content: center;
+align-items: center;
+padding-bottom: 3.3rem;
+margin-top: 3rem;
+
+}
+.sub-about-gall{
+    /* border: 5px solid rgb(2, 0, 128); */
+    width: 15rem;
+    height: 15rem;
+    /* border-radius: 50%; */
+    margin: 0 10rem;
+    
+}
+.sub-about-gall img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+
+}
+.image-cap{
+    /* border: 2px solid red; */
+    padding-top: 2.5rem;
+    text-align: center;
+}
+.fas{
+    color: yellow;
+    font-size: 2rem;
+}
+
+/* /////////////////////////contact us css ///////////////////////////*/
+
+.contact{
+/* border: 2px solid red; */
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 20rem;
+padding-bottom: 10rem;
+}
+.head-contact{
+text-align: center;
+/* border: 4px solid blue; */
+margin-top: 5rem;
+}
+.head-contact h2{
+font-size: 4rem;
+text-transform: uppercase;
+}
+.head-contact p{
+font-size: 1.4rem;
+text-transform: capitalize;
+letter-spacing: 0.4rem;
+}
+.form-div{
+    /* border: 4px solid green; */
+    width: 50%;
+    height: 50%;
+    margin-top: 5rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2rem;
+ box-shadow: 0px 5px 20px rgba(0,0,0,0.5);
+ cursor: pointer;
+}
+.form-group{
+    font-size: 2rem;
+    padding: 1rem 2rem;
+}
+.form-control{
+    font-size: 2rem;
+}
+
+.btn{
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    margin: 1rem 2rem;
+    border-radius: 2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+
+
+}
+.btn-primary {
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: none;
+    outline: none;
+    border-color:grey;
+    
+}
+
+
+.btn:hover
+{
+    background-color: black;
+}
+
+/* ///////////////////footer css ////////////////////////////// */
+
+.footer{
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    font-size: 1.8rem;
+}
